@@ -8,7 +8,6 @@ const { Client, RichEmbed } = require('discord.js');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(`Dota 2`);
 });
 
 client.on('message', message => {
